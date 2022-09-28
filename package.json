@@ -1,0 +1,25 @@
+{
+  "name": "api-webpokemon",
+  "version": "1.0.0",
+  "description": "práctica de utilización API, organizando JS por módulos y testeando código con cypress y JEST.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage",
+    "test:dev":"jest --watchAll",
+    "cypress-dev": "cypress oppen"
+  },
+  
+  "author": "Nicolas Vivalda",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@types/jest": "^29.0.3",
+    "babel-jest": "^29.0.3",
+    "cypress": "^10.8.0",
+    "jest": "^29.0.3"
+  }
+}
